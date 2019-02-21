@@ -1,0 +1,367 @@
+2019-01-22 22:40:25,151 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-01-22 22:40:25,224 73     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-01-22 22:40:25,225 74     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-01-22 22:40:25,225 74     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-01-22 22:40:25,225 74     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-01-22 22:40:25,280 129    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2019-01-22 22:40:25,435 284    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 1970881185.
+2019-01-22 22:40:25,435 284    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@757942a1]
+2019-01-22 22:40:25,436 285    [           main] DEBUG om.itcast.dao.IUserDao.findAll  - ==>  Preparing: select * from user; 
+2019-01-22 22:40:25,452 301    [           main] DEBUG om.itcast.dao.IUserDao.findAll  - ==> Parameters: 
+2019-01-22 22:40:25,466 315    [           main] DEBUG om.itcast.dao.IUserDao.findAll  - <==      Total: 6
+2019-01-22 22:40:25,468 317    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@757942a1]
+2019-01-22 22:40:25,469 318    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@757942a1]
+2019-01-22 22:40:25,469 318    [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 1970881185 to pool.
+2019-01-22 23:47:54,106 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-01-22 23:47:54,174 68     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-01-22 23:47:54,174 68     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-01-22 23:47:54,174 68     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-01-22 23:47:54,174 68     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-01-22 23:47:54,254 148    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2019-01-22 23:47:54,414 308    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 917819120.
+2019-01-22 23:47:54,414 308    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@36b4cef0]
+2019-01-22 23:47:54,414 308    [           main] DEBUG om.itcast.dao.IRoleDao.findAll  - ==>  Preparing: select * from role; 
+2019-01-22 23:47:54,438 332    [           main] DEBUG om.itcast.dao.IRoleDao.findAll  - ==> Parameters: 
+2019-01-22 23:47:54,448 342    [           main] DEBUG om.itcast.dao.IRoleDao.findAll  - <==      Total: 3
+2019-01-22 23:47:54,448 342    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@36b4cef0]
+2019-01-22 23:47:54,448 342    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@36b4cef0]
+2019-01-22 23:47:54,448 342    [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 917819120 to pool.
+2019-01-22 23:50:57,284 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-01-22 23:50:57,377 93     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-01-22 23:50:57,377 93     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-01-22 23:50:57,377 93     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-01-22 23:50:57,377 93     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-01-22 23:50:57,454 170    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2019-01-22 23:50:57,624 340    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 1997353766.
+2019-01-22 23:50:57,624 340    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@770d3326]
+2019-01-22 23:50:57,624 340    [           main] DEBUG om.itcast.dao.IRoleDao.findAll  - ==>  Preparing: select * from role; 
+2019-01-22 23:50:57,644 360    [           main] DEBUG om.itcast.dao.IRoleDao.findAll  - ==> Parameters: 
+2019-01-22 23:50:57,654 370    [           main] DEBUG om.itcast.dao.IRoleDao.findAll  - <==      Total: 3
+2019-01-22 23:50:57,654 370    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@770d3326]
+2019-01-22 23:50:57,654 370    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@770d3326]
+2019-01-22 23:50:57,654 370    [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 1997353766 to pool.
+2019-01-22 23:51:19,104 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-01-22 23:51:19,172 68     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-01-22 23:51:19,172 68     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-01-22 23:51:19,172 68     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-01-22 23:51:19,172 68     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-01-22 23:51:19,242 138    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2019-01-22 23:51:19,391 287    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 917819120.
+2019-01-22 23:51:19,391 287    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@36b4cef0]
+2019-01-22 23:51:19,392 288    [           main] DEBUG om.itcast.dao.IRoleDao.findAll  - ==>  Preparing: select * from role; 
+2019-01-22 23:51:19,409 305    [           main] DEBUG om.itcast.dao.IRoleDao.findAll  - ==> Parameters: 
+2019-01-22 23:51:19,420 316    [           main] DEBUG om.itcast.dao.IRoleDao.findAll  - <==      Total: 3
+2019-01-22 23:51:19,420 316    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@36b4cef0]
+2019-01-22 23:51:19,421 317    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@36b4cef0]
+2019-01-22 23:51:19,421 317    [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 917819120 to pool.
+2019-01-22 23:53:09,204 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-01-22 23:53:09,270 66     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-01-22 23:53:09,270 66     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-01-22 23:53:09,270 66     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-01-22 23:53:09,270 66     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-01-22 23:53:09,285 81     [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VFS
+2019-01-22 23:53:09,285 81     [           main] DEBUG org.apache.ibatis.io.JBoss6VFS  - JBoss 6 VFS API is not available in this environment.
+2019-01-22 23:53:09,286 82     [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VirtualFile
+2019-01-22 23:53:09,286 82     [           main] DEBUG       org.apache.ibatis.io.VFS  - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2019-01-22 23:53:09,286 82     [           main] DEBUG       org.apache.ibatis.io.VFS  - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2019-01-22 23:53:09,287 83     [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/JavaWeb/untitled/day03_eery_05daymybatis/target/classes/com/itcast/dao
+2019-01-22 23:53:09,287 83     [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/JavaWeb/untitled/day03_eery_05daymybatis/target/classes/com/itcast/dao
+2019-01-22 23:53:09,314 110    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IRoleDao.class
+2019-01-22 23:53:09,314 110    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IRoleDao.xml
+2019-01-22 23:53:09,314 110    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao.class
+2019-01-22 23:53:09,314 110    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao.xml
+2019-01-22 23:53:09,314 110    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/D:/JavaWeb/untitled/day03_eery_05daymybatis/target/classes/com/itcast/dao
+2019-01-22 23:53:09,314 110    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/JavaWeb/untitled/day03_eery_05daymybatis/target/classes/com/itcast/dao/IRoleDao.class
+2019-01-22 23:53:09,314 110    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/JavaWeb/untitled/day03_eery_05daymybatis/target/classes/com/itcast/dao/IRoleDao.class
+2019-01-22 23:53:09,315 111    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1  	 
+2019-01-22 23:53:09,315 111    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/JavaWeb/untitled/day03_eery_05daymybatis/target/classes/com/itcast/dao/IRoleDao.xml
+2019-01-22 23:53:09,315 111    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/JavaWeb/untitled/day03_eery_05daymybatis/target/classes/com/itcast/dao/IRoleDao.xml
+2019-01-22 23:53:09,316 112    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="UTF-8"?>
+2019-01-22 23:53:09,316 112    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/JavaWeb/untitled/day03_eery_05daymybatis/target/classes/com/itcast/dao/IUserDao.class
+2019-01-22 23:53:09,316 112    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/JavaWeb/untitled/day03_eery_05daymybatis/target/classes/com/itcast/dao/IUserDao.class
+2019-01-22 23:53:09,316 112    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1 
+2019-01-22 23:53:09,317 113    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/JavaWeb/untitled/day03_eery_05daymybatis/target/classes/com/itcast/dao/IUserDao.xml
+2019-01-22 23:53:09,317 113    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/JavaWeb/untitled/day03_eery_05daymybatis/target/classes/com/itcast/dao/IUserDao.xml
+2019-01-22 23:53:09,317 113    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="UTF-8"?>
+2019-01-22 23:53:09,317 113    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.itcast.dao.IRoleDao matches criteria [is assignable to Object]
+2019-01-22 23:53:09,318 114    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.itcast.dao.IUserDao matches criteria [is assignable to Object]
+2019-01-22 23:53:09,383 179    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2019-01-22 23:53:09,533 329    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 213193302.
+2019-01-22 23:53:09,533 329    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@cb51256]
+2019-01-22 23:53:09,534 330    [           main] DEBUG om.itcast.dao.IRoleDao.findAll  - ==>  Preparing: select * from role; 
+2019-01-22 23:53:09,552 348    [           main] DEBUG om.itcast.dao.IRoleDao.findAll  - ==> Parameters: 
+2019-01-22 23:53:09,563 359    [           main] DEBUG om.itcast.dao.IRoleDao.findAll  - <==      Total: 3
+2019-01-22 23:53:09,564 360    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@cb51256]
+2019-01-22 23:53:09,564 360    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@cb51256]
+2019-01-22 23:53:09,564 360    [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 213193302 to pool.
+2019-01-22 23:58:23,534 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-01-22 23:58:23,602 68     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-01-22 23:58:23,602 68     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-01-22 23:58:23,602 68     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-01-22 23:58:23,602 68     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-01-22 23:58:23,617 83     [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VFS
+2019-01-22 23:58:23,617 83     [           main] DEBUG org.apache.ibatis.io.JBoss6VFS  - JBoss 6 VFS API is not available in this environment.
+2019-01-22 23:58:23,618 84     [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VirtualFile
+2019-01-22 23:58:23,618 84     [           main] DEBUG       org.apache.ibatis.io.VFS  - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2019-01-22 23:58:23,618 84     [           main] DEBUG       org.apache.ibatis.io.VFS  - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2019-01-22 23:58:23,619 85     [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/JavaWeb/untitled/day03_eery_05daymybatis/target/classes/com/itcast/dao
+2019-01-22 23:58:23,619 85     [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/JavaWeb/untitled/day03_eery_05daymybatis/target/classes/com/itcast/dao
+2019-01-22 23:58:23,645 111    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IRoleDao.class
+2019-01-22 23:58:23,645 111    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IRoleDao.xml
+2019-01-22 23:58:23,646 112    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao.class
+2019-01-22 23:58:23,646 112    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao.xml
+2019-01-22 23:58:23,646 112    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/D:/JavaWeb/untitled/day03_eery_05daymybatis/target/classes/com/itcast/dao
+2019-01-22 23:58:23,646 112    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/JavaWeb/untitled/day03_eery_05daymybatis/target/classes/com/itcast/dao/IRoleDao.class
+2019-01-22 23:58:23,646 112    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/JavaWeb/untitled/day03_eery_05daymybatis/target/classes/com/itcast/dao/IRoleDao.class
+2019-01-22 23:58:23,647 113    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1  	 
+2019-01-22 23:58:23,647 113    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/JavaWeb/untitled/day03_eery_05daymybatis/target/classes/com/itcast/dao/IRoleDao.xml
+2019-01-22 23:58:23,647 113    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/JavaWeb/untitled/day03_eery_05daymybatis/target/classes/com/itcast/dao/IRoleDao.xml
+2019-01-22 23:58:23,647 113    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="UTF-8"?>
+2019-01-22 23:58:23,648 114    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/JavaWeb/untitled/day03_eery_05daymybatis/target/classes/com/itcast/dao/IUserDao.class
+2019-01-22 23:58:23,648 114    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/JavaWeb/untitled/day03_eery_05daymybatis/target/classes/com/itcast/dao/IUserDao.class
+2019-01-22 23:58:23,648 114    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1 
+2019-01-22 23:58:23,648 114    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/JavaWeb/untitled/day03_eery_05daymybatis/target/classes/com/itcast/dao/IUserDao.xml
+2019-01-22 23:58:23,648 114    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/JavaWeb/untitled/day03_eery_05daymybatis/target/classes/com/itcast/dao/IUserDao.xml
+2019-01-22 23:58:23,648 114    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="UTF-8"?>
+2019-01-22 23:58:23,649 115    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.itcast.dao.IRoleDao matches criteria [is assignable to Object]
+2019-01-22 23:58:23,649 115    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.itcast.dao.IUserDao matches criteria [is assignable to Object]
+2019-01-22 23:58:23,716 182    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2019-01-22 23:58:23,869 335    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 213193302.
+2019-01-22 23:58:23,869 335    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@cb51256]
+2019-01-22 23:58:23,871 337    [           main] DEBUG om.itcast.dao.IRoleDao.findAll  - ==>  Preparing: select * from role; 
+2019-01-22 23:58:23,888 354    [           main] DEBUG om.itcast.dao.IRoleDao.findAll  - ==> Parameters: 
+2019-01-22 23:58:23,899 365    [           main] DEBUG om.itcast.dao.IRoleDao.findAll  - <==      Total: 3
+2019-01-22 23:58:23,900 366    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@cb51256]
+2019-01-22 23:58:23,900 366    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@cb51256]
+2019-01-22 23:58:23,900 366    [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 213193302 to pool.
+2019-01-23 00:02:33,539 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-01-23 00:02:33,605 66     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-01-23 00:02:33,605 66     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-01-23 00:02:33,605 66     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-01-23 00:02:33,605 66     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-01-23 00:02:33,620 81     [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VFS
+2019-01-23 00:02:33,620 81     [           main] DEBUG org.apache.ibatis.io.JBoss6VFS  - JBoss 6 VFS API is not available in this environment.
+2019-01-23 00:02:33,621 82     [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VirtualFile
+2019-01-23 00:02:33,621 82     [           main] DEBUG       org.apache.ibatis.io.VFS  - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2019-01-23 00:02:33,621 82     [           main] DEBUG       org.apache.ibatis.io.VFS  - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2019-01-23 00:02:33,622 83     [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/JavaWeb/untitled/day03_eery_05daymybatis/target/classes/com/itcast/dao
+2019-01-23 00:02:33,622 83     [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/JavaWeb/untitled/day03_eery_05daymybatis/target/classes/com/itcast/dao
+2019-01-23 00:02:33,646 107    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IRoleDao.class
+2019-01-23 00:02:33,646 107    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IRoleDao.xml
+2019-01-23 00:02:33,646 107    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao.class
+2019-01-23 00:02:33,646 107    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao.xml
+2019-01-23 00:02:33,646 107    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/D:/JavaWeb/untitled/day03_eery_05daymybatis/target/classes/com/itcast/dao
+2019-01-23 00:02:33,646 107    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/JavaWeb/untitled/day03_eery_05daymybatis/target/classes/com/itcast/dao/IRoleDao.class
+2019-01-23 00:02:33,646 107    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/JavaWeb/untitled/day03_eery_05daymybatis/target/classes/com/itcast/dao/IRoleDao.class
+2019-01-23 00:02:33,650 111    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1  	 
+2019-01-23 00:02:33,650 111    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/JavaWeb/untitled/day03_eery_05daymybatis/target/classes/com/itcast/dao/IRoleDao.xml
+2019-01-23 00:02:33,650 111    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/JavaWeb/untitled/day03_eery_05daymybatis/target/classes/com/itcast/dao/IRoleDao.xml
+2019-01-23 00:02:33,651 112    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="UTF-8"?>
+2019-01-23 00:02:33,651 112    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/JavaWeb/untitled/day03_eery_05daymybatis/target/classes/com/itcast/dao/IUserDao.class
+2019-01-23 00:02:33,651 112    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/JavaWeb/untitled/day03_eery_05daymybatis/target/classes/com/itcast/dao/IUserDao.class
+2019-01-23 00:02:33,651 112    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1 
+2019-01-23 00:02:33,651 112    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/JavaWeb/untitled/day03_eery_05daymybatis/target/classes/com/itcast/dao/IUserDao.xml
+2019-01-23 00:02:33,651 112    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/JavaWeb/untitled/day03_eery_05daymybatis/target/classes/com/itcast/dao/IUserDao.xml
+2019-01-23 00:02:33,652 113    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="UTF-8"?>
+2019-01-23 00:02:33,652 113    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.itcast.dao.IRoleDao matches criteria [is assignable to Object]
+2019-01-23 00:02:33,652 113    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.itcast.dao.IUserDao matches criteria [is assignable to Object]
+2019-01-23 00:02:33,720 181    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2019-01-23 00:02:33,871 332    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 1615056168.
+2019-01-23 00:02:33,871 332    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@6043cd28]
+2019-01-23 00:02:33,873 334    [           main] DEBUG om.itcast.dao.IRoleDao.findAll  - ==>  Preparing: select * from role; 
+2019-01-23 00:02:33,888 349    [           main] DEBUG om.itcast.dao.IRoleDao.findAll  - ==> Parameters: 
+2019-01-23 00:02:33,898 359    [           main] DEBUG om.itcast.dao.IRoleDao.findAll  - <==      Total: 3
+2019-01-23 00:02:33,899 360    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@6043cd28]
+2019-01-23 00:02:33,899 360    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@6043cd28]
+2019-01-23 00:02:33,899 360    [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 1615056168 to pool.
+2019-01-23 00:06:09,046 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-01-23 00:06:09,113 67     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-01-23 00:06:09,113 67     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-01-23 00:06:09,113 67     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-01-23 00:06:09,114 68     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-01-23 00:06:09,130 84     [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VFS
+2019-01-23 00:06:09,130 84     [           main] DEBUG org.apache.ibatis.io.JBoss6VFS  - JBoss 6 VFS API is not available in this environment.
+2019-01-23 00:06:09,130 84     [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VirtualFile
+2019-01-23 00:06:09,131 85     [           main] DEBUG       org.apache.ibatis.io.VFS  - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2019-01-23 00:06:09,131 85     [           main] DEBUG       org.apache.ibatis.io.VFS  - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2019-01-23 00:06:09,131 85     [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/JavaWeb/untitled/day03_eery_05daymybatis/target/classes/com/itcast/dao
+2019-01-23 00:06:09,131 85     [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/JavaWeb/untitled/day03_eery_05daymybatis/target/classes/com/itcast/dao
+2019-01-23 00:06:09,161 115    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IRoleDao.class
+2019-01-23 00:06:09,161 115    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IRoleDao.xml
+2019-01-23 00:06:09,162 116    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao.class
+2019-01-23 00:06:09,162 116    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao.xml
+2019-01-23 00:06:09,162 116    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/D:/JavaWeb/untitled/day03_eery_05daymybatis/target/classes/com/itcast/dao
+2019-01-23 00:06:09,162 116    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/JavaWeb/untitled/day03_eery_05daymybatis/target/classes/com/itcast/dao/IRoleDao.class
+2019-01-23 00:06:09,162 116    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/JavaWeb/untitled/day03_eery_05daymybatis/target/classes/com/itcast/dao/IRoleDao.class
+2019-01-23 00:06:09,163 117    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1  	 
+2019-01-23 00:06:09,164 118    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/JavaWeb/untitled/day03_eery_05daymybatis/target/classes/com/itcast/dao/IRoleDao.xml
+2019-01-23 00:06:09,164 118    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/JavaWeb/untitled/day03_eery_05daymybatis/target/classes/com/itcast/dao/IRoleDao.xml
+2019-01-23 00:06:09,165 119    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="UTF-8"?>
+2019-01-23 00:06:09,165 119    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/JavaWeb/untitled/day03_eery_05daymybatis/target/classes/com/itcast/dao/IUserDao.class
+2019-01-23 00:06:09,165 119    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/JavaWeb/untitled/day03_eery_05daymybatis/target/classes/com/itcast/dao/IUserDao.class
+2019-01-23 00:06:09,166 120    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1 
+2019-01-23 00:06:09,166 120    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/JavaWeb/untitled/day03_eery_05daymybatis/target/classes/com/itcast/dao/IUserDao.xml
+2019-01-23 00:06:09,166 120    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/JavaWeb/untitled/day03_eery_05daymybatis/target/classes/com/itcast/dao/IUserDao.xml
+2019-01-23 00:06:09,167 121    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="UTF-8"?>
+2019-01-23 00:06:09,167 121    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.itcast.dao.IRoleDao matches criteria [is assignable to Object]
+2019-01-23 00:06:09,168 122    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.itcast.dao.IUserDao matches criteria [is assignable to Object]
+2019-01-23 00:06:09,234 188    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2019-01-23 00:06:09,389 343    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 213193302.
+2019-01-23 00:06:09,389 343    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@cb51256]
+2019-01-23 00:06:09,390 344    [           main] DEBUG om.itcast.dao.IRoleDao.findAll  - ==>  Preparing: select * from role; 
+2019-01-23 00:06:09,407 361    [           main] DEBUG om.itcast.dao.IRoleDao.findAll  - ==> Parameters: 
+2019-01-23 00:06:09,417 371    [           main] DEBUG om.itcast.dao.IRoleDao.findAll  - <==      Total: 3
+2019-01-23 00:06:09,418 372    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@cb51256]
+2019-01-23 00:06:09,418 372    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@cb51256]
+2019-01-23 00:06:09,418 372    [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 213193302 to pool.
+2019-01-23 00:51:19,292 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-01-23 00:51:19,361 69     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-01-23 00:51:19,361 69     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-01-23 00:51:19,361 69     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-01-23 00:51:19,361 69     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-01-23 00:51:19,377 85     [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VFS
+2019-01-23 00:51:19,377 85     [           main] DEBUG org.apache.ibatis.io.JBoss6VFS  - JBoss 6 VFS API is not available in this environment.
+2019-01-23 00:51:19,378 86     [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VirtualFile
+2019-01-23 00:51:19,378 86     [           main] DEBUG       org.apache.ibatis.io.VFS  - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2019-01-23 00:51:19,378 86     [           main] DEBUG       org.apache.ibatis.io.VFS  - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2019-01-23 00:51:19,379 87     [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/JavaWeb/untitled/day03_eery_05daymybatis/target/classes/com/itcast/dao
+2019-01-23 00:51:19,379 87     [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/JavaWeb/untitled/day03_eery_05daymybatis/target/classes/com/itcast/dao
+2019-01-23 00:51:19,410 118    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IRoleDao.class
+2019-01-23 00:51:19,410 118    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IRoleDao.xml
+2019-01-23 00:51:19,410 118    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao.class
+2019-01-23 00:51:19,410 118    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao.xml
+2019-01-23 00:51:19,411 119    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/D:/JavaWeb/untitled/day03_eery_05daymybatis/target/classes/com/itcast/dao
+2019-01-23 00:51:19,411 119    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/JavaWeb/untitled/day03_eery_05daymybatis/target/classes/com/itcast/dao/IRoleDao.class
+2019-01-23 00:51:19,412 120    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/JavaWeb/untitled/day03_eery_05daymybatis/target/classes/com/itcast/dao/IRoleDao.class
+2019-01-23 00:51:19,412 120    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1  	 
+2019-01-23 00:51:19,412 120    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/JavaWeb/untitled/day03_eery_05daymybatis/target/classes/com/itcast/dao/IRoleDao.xml
+2019-01-23 00:51:19,413 121    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/JavaWeb/untitled/day03_eery_05daymybatis/target/classes/com/itcast/dao/IRoleDao.xml
+2019-01-23 00:51:19,413 121    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="UTF-8"?>
+2019-01-23 00:51:19,413 121    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/JavaWeb/untitled/day03_eery_05daymybatis/target/classes/com/itcast/dao/IUserDao.class
+2019-01-23 00:51:19,413 121    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/JavaWeb/untitled/day03_eery_05daymybatis/target/classes/com/itcast/dao/IUserDao.class
+2019-01-23 00:51:19,413 121    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1 
+2019-01-23 00:51:19,413 121    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/JavaWeb/untitled/day03_eery_05daymybatis/target/classes/com/itcast/dao/IUserDao.xml
+2019-01-23 00:51:19,414 122    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/JavaWeb/untitled/day03_eery_05daymybatis/target/classes/com/itcast/dao/IUserDao.xml
+2019-01-23 00:51:19,414 122    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="UTF-8"?>
+2019-01-23 00:51:19,414 122    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.itcast.dao.IRoleDao matches criteria [is assignable to Object]
+2019-01-23 00:51:19,414 122    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.itcast.dao.IUserDao matches criteria [is assignable to Object]
+2019-01-23 00:51:19,481 189    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2019-01-23 00:51:19,638 346    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 213193302.
+2019-01-23 00:51:19,638 346    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@cb51256]
+2019-01-23 00:51:19,639 347    [           main] DEBUG om.itcast.dao.IRoleDao.findAll  - ==>  Preparing: SELECT u.*,r.id AS rid,r.role_name,r.role_desc FROM role r LEFT OUTER JOIN user_role ur ON r.id = ur.rid LEFT OUTER JOIN USER u ON u.id=ur.uid ; 
+2019-01-23 00:51:19,655 363    [           main] DEBUG om.itcast.dao.IRoleDao.findAll  - ==> Parameters: 
+2019-01-23 00:51:19,674 382    [           main] DEBUG om.itcast.dao.IRoleDao.findAll  - <==      Total: 4
+2019-01-23 00:51:19,674 382    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@cb51256]
+2019-01-23 00:51:19,675 383    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@cb51256]
+2019-01-23 00:51:19,675 383    [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 213193302 to pool.
+2019-01-23 00:52:08,401 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-01-23 00:52:08,474 73     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-01-23 00:52:08,475 74     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-01-23 00:52:08,475 74     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-01-23 00:52:08,475 74     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-01-23 00:52:08,492 91     [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VFS
+2019-01-23 00:52:08,492 91     [           main] DEBUG org.apache.ibatis.io.JBoss6VFS  - JBoss 6 VFS API is not available in this environment.
+2019-01-23 00:52:08,492 91     [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VirtualFile
+2019-01-23 00:52:08,493 92     [           main] DEBUG       org.apache.ibatis.io.VFS  - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2019-01-23 00:52:08,493 92     [           main] DEBUG       org.apache.ibatis.io.VFS  - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2019-01-23 00:52:08,493 92     [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/JavaWeb/untitled/day03_eery_05daymybatis/target/classes/com/itcast/dao
+2019-01-23 00:52:08,493 92     [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/JavaWeb/untitled/day03_eery_05daymybatis/target/classes/com/itcast/dao
+2019-01-23 00:52:08,520 119    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IRoleDao.class
+2019-01-23 00:52:08,520 119    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IRoleDao.xml
+2019-01-23 00:52:08,520 119    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao.class
+2019-01-23 00:52:08,520 119    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao.xml
+2019-01-23 00:52:08,520 119    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/D:/JavaWeb/untitled/day03_eery_05daymybatis/target/classes/com/itcast/dao
+2019-01-23 00:52:08,520 119    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/JavaWeb/untitled/day03_eery_05daymybatis/target/classes/com/itcast/dao/IRoleDao.class
+2019-01-23 00:52:08,520 119    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/JavaWeb/untitled/day03_eery_05daymybatis/target/classes/com/itcast/dao/IRoleDao.class
+2019-01-23 00:52:08,522 121    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1  	 
+2019-01-23 00:52:08,522 121    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/JavaWeb/untitled/day03_eery_05daymybatis/target/classes/com/itcast/dao/IRoleDao.xml
+2019-01-23 00:52:08,522 121    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/JavaWeb/untitled/day03_eery_05daymybatis/target/classes/com/itcast/dao/IRoleDao.xml
+2019-01-23 00:52:08,523 122    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="UTF-8"?>
+2019-01-23 00:52:08,523 122    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/JavaWeb/untitled/day03_eery_05daymybatis/target/classes/com/itcast/dao/IUserDao.class
+2019-01-23 00:52:08,523 122    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/JavaWeb/untitled/day03_eery_05daymybatis/target/classes/com/itcast/dao/IUserDao.class
+2019-01-23 00:52:08,524 123    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1 
+2019-01-23 00:52:08,524 123    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/JavaWeb/untitled/day03_eery_05daymybatis/target/classes/com/itcast/dao/IUserDao.xml
+2019-01-23 00:52:08,524 123    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/JavaWeb/untitled/day03_eery_05daymybatis/target/classes/com/itcast/dao/IUserDao.xml
+2019-01-23 00:52:08,524 123    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="UTF-8"?>
+2019-01-23 00:52:08,525 124    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.itcast.dao.IRoleDao matches criteria [is assignable to Object]
+2019-01-23 00:52:08,525 124    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.itcast.dao.IUserDao matches criteria [is assignable to Object]
+2019-01-23 00:52:08,605 204    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2019-01-23 00:52:08,768 367    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 213193302.
+2019-01-23 00:52:08,768 367    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@cb51256]
+2019-01-23 00:52:08,769 368    [           main] DEBUG om.itcast.dao.IRoleDao.findAll  - ==>  Preparing: SELECT u.*,r.id AS rid,r.role_name,r.role_desc FROM role r LEFT OUTER JOIN user_role ur ON r.id = ur.rid LEFT OUTER JOIN USER u ON u.id=ur.uid ; 
+2019-01-23 00:52:08,788 387    [           main] DEBUG om.itcast.dao.IRoleDao.findAll  - ==> Parameters: 
+2019-01-23 00:52:08,808 407    [           main] DEBUG om.itcast.dao.IRoleDao.findAll  - <==      Total: 4
+2019-01-23 00:52:08,811 410    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@cb51256]
+2019-01-23 00:52:08,812 411    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@cb51256]
+2019-01-23 00:52:08,812 411    [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 213193302 to pool.
+2019-01-23 00:56:16,274 1      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-01-23 00:56:16,367 94     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-01-23 00:56:16,367 94     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-01-23 00:56:16,368 95     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-01-23 00:56:16,368 95     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-01-23 00:56:16,371 98     [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VFS
+2019-01-23 00:56:16,371 98     [           main] DEBUG org.apache.ibatis.io.JBoss6VFS  - JBoss 6 VFS API is not available in this environment.
+2019-01-23 00:56:16,372 99     [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VirtualFile
+2019-01-23 00:56:16,372 99     [           main] DEBUG       org.apache.ibatis.io.VFS  - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2019-01-23 00:56:16,372 99     [           main] DEBUG       org.apache.ibatis.io.VFS  - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2019-01-23 00:56:16,372 99     [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/JavaWeb/untitled/day03_eery_05daymybatis/target/classes/com/itcast/dao
+2019-01-23 00:56:16,373 100    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/JavaWeb/untitled/day03_eery_05daymybatis/target/classes/com/itcast/dao
+2019-01-23 00:56:16,400 127    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IRoleDao.class
+2019-01-23 00:56:16,401 128    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IRoleDao.xml
+2019-01-23 00:56:16,401 128    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao.class
+2019-01-23 00:56:16,401 128    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao.xml
+2019-01-23 00:56:16,401 128    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/D:/JavaWeb/untitled/day03_eery_05daymybatis/target/classes/com/itcast/dao
+2019-01-23 00:56:16,401 128    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/JavaWeb/untitled/day03_eery_05daymybatis/target/classes/com/itcast/dao/IRoleDao.class
+2019-01-23 00:56:16,401 128    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/JavaWeb/untitled/day03_eery_05daymybatis/target/classes/com/itcast/dao/IRoleDao.class
+2019-01-23 00:56:16,402 129    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1  	 
+2019-01-23 00:56:16,402 129    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/JavaWeb/untitled/day03_eery_05daymybatis/target/classes/com/itcast/dao/IRoleDao.xml
+2019-01-23 00:56:16,402 129    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/JavaWeb/untitled/day03_eery_05daymybatis/target/classes/com/itcast/dao/IRoleDao.xml
+2019-01-23 00:56:16,403 130    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="UTF-8"?>
+2019-01-23 00:56:16,403 130    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/JavaWeb/untitled/day03_eery_05daymybatis/target/classes/com/itcast/dao/IUserDao.class
+2019-01-23 00:56:16,403 130    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/JavaWeb/untitled/day03_eery_05daymybatis/target/classes/com/itcast/dao/IUserDao.class
+2019-01-23 00:56:16,404 131    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1 
+2019-01-23 00:56:16,404 131    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/JavaWeb/untitled/day03_eery_05daymybatis/target/classes/com/itcast/dao/IUserDao.xml
+2019-01-23 00:56:16,404 131    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/JavaWeb/untitled/day03_eery_05daymybatis/target/classes/com/itcast/dao/IUserDao.xml
+2019-01-23 00:56:16,405 132    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="UTF-8"?>
+2019-01-23 00:56:16,405 132    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.itcast.dao.IRoleDao matches criteria [is assignable to Object]
+2019-01-23 00:56:16,405 132    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.itcast.dao.IUserDao matches criteria [is assignable to Object]
+2019-01-23 00:57:16,799 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-01-23 00:57:16,868 69     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-01-23 00:57:16,868 69     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-01-23 00:57:16,868 69     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-01-23 00:57:16,868 69     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-01-23 00:57:16,885 86     [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VFS
+2019-01-23 00:57:16,885 86     [           main] DEBUG org.apache.ibatis.io.JBoss6VFS  - JBoss 6 VFS API is not available in this environment.
+2019-01-23 00:57:16,886 87     [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VirtualFile
+2019-01-23 00:57:16,886 87     [           main] DEBUG       org.apache.ibatis.io.VFS  - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2019-01-23 00:57:16,886 87     [           main] DEBUG       org.apache.ibatis.io.VFS  - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2019-01-23 00:57:16,886 87     [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/JavaWeb/untitled/day03_eery_05daymybatis/target/classes/com/itcast/dao
+2019-01-23 00:57:16,887 88     [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/JavaWeb/untitled/day03_eery_05daymybatis/target/classes/com/itcast/dao
+2019-01-23 00:57:16,913 114    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IRoleDao.class
+2019-01-23 00:57:16,913 114    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IRoleDao.xml
+2019-01-23 00:57:16,913 114    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao.class
+2019-01-23 00:57:16,913 114    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao.xml
+2019-01-23 00:57:16,913 114    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/D:/JavaWeb/untitled/day03_eery_05daymybatis/target/classes/com/itcast/dao
+2019-01-23 00:57:16,914 115    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/JavaWeb/untitled/day03_eery_05daymybatis/target/classes/com/itcast/dao/IRoleDao.class
+2019-01-23 00:57:16,915 116    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/JavaWeb/untitled/day03_eery_05daymybatis/target/classes/com/itcast/dao/IRoleDao.class
+2019-01-23 00:57:16,915 116    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1  	 
+2019-01-23 00:57:16,915 116    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/JavaWeb/untitled/day03_eery_05daymybatis/target/classes/com/itcast/dao/IRoleDao.xml
+2019-01-23 00:57:16,916 117    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/JavaWeb/untitled/day03_eery_05daymybatis/target/classes/com/itcast/dao/IRoleDao.xml
+2019-01-23 00:57:16,916 117    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="UTF-8"?>
+2019-01-23 00:57:16,916 117    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/JavaWeb/untitled/day03_eery_05daymybatis/target/classes/com/itcast/dao/IUserDao.class
+2019-01-23 00:57:16,916 117    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/JavaWeb/untitled/day03_eery_05daymybatis/target/classes/com/itcast/dao/IUserDao.class
+2019-01-23 00:57:16,916 117    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1 
+2019-01-23 00:57:16,917 118    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/JavaWeb/untitled/day03_eery_05daymybatis/target/classes/com/itcast/dao/IUserDao.xml
+2019-01-23 00:57:16,917 118    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/JavaWeb/untitled/day03_eery_05daymybatis/target/classes/com/itcast/dao/IUserDao.xml
+2019-01-23 00:57:16,917 118    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="UTF-8"?>
+2019-01-23 00:57:16,918 119    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.itcast.dao.IRoleDao matches criteria [is assignable to Object]
+2019-01-23 00:57:16,918 119    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.itcast.dao.IUserDao matches criteria [is assignable to Object]
+2019-01-23 00:57:16,985 186    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2019-01-23 00:57:17,131 332    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 213193302.
+2019-01-23 00:57:17,131 332    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@cb51256]
+2019-01-23 00:57:17,132 333    [           main] DEBUG om.itcast.dao.IRoleDao.findAll  - ==>  Preparing: SELECT u.*,r.id AS rid,r.role_name,r.role_desc FROM role r LEFT OUTER JOIN user_role ur ON r.id = ur.rid LEFT OUTER JOIN USER u ON u.id=ur.uid ; 
+2019-01-23 00:57:17,152 353    [           main] DEBUG om.itcast.dao.IRoleDao.findAll  - ==> Parameters: 
+2019-01-23 00:57:17,168 369    [           main] DEBUG om.itcast.dao.IRoleDao.findAll  - <==      Total: 4
+2019-01-23 00:57:17,170 371    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@cb51256]
+2019-01-23 00:57:17,171 372    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@cb51256]
+2019-01-23 00:57:17,171 372    [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 213193302 to pool.

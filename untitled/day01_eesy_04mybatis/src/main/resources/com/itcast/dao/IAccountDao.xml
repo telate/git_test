@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+    <!--IAccount核心配置文件-->
+    <mapper namespace="com.itcast.dao.IAccountDao">
+
+    <!--定义封装account和user的resultMap-->
+    <resultMap id="accountUserMap" type="com.itcast.main.Account" >
+        <id property="id" column="aid"></id>
+        <result property="uid" column="uid"></result>
+        <result property="money" column="money"></result>
+        <!-- 一对一的关系映射：配置封装user的内容-->
+        <association property="user" column="uid" javaType="com.itcast.main.User">
+        <id column="id" property="id"></id>
+        <result column="username" property="username"></result>
+        <result column="birthday" property="birthday"></result>
+        <result column="sex" property="sex"></result>
+        <result column="address" property="address"></result>
+        </association>
+    </resultMap>
+
+
+
+<!--查询所有-->
+    <select id="findAll"  resultMap="accountUserMap">
+        select u.*,a.id As aid,a.uid,a.money from account a,user u where u.id=a.uid;
+    </select>
+
+
+    <!--查询所有外加用户名和地址-->
+    <select id="findAllAccountUser" resultType="com.itcast.main.AccountUser">
+        select a.*,u.username,u.address from account a,user u where u.id=a.uid;
+    </select>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!--    &lt;!&ndash;查询所有&ndash;&gt;
+        <select id="findAll" resultType="com.itcast.main.Account">
+            select * from Account;
+        </select>
+
+    &lt;!&ndash;查询账户所有外加用户名和地址&ndash;&gt;
+    <select id="findAllAccount" resultType="com.itcast.main.AccountUser">
+        select a.*,u.username,u.address from account a,user u where u.id=a.uid;
+    </select>-->
+
+    </mapper>

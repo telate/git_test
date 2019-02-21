@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>day07_eesy_01account_xmliol</artifactId>
+        <groupId>com.itcast</groupId>
+        <version>1.0-SNAPSHOT</version>
+        <relativePath>../day07_eesy_01account_xmliol/pom.xml</relativePath>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>day07_eesy_03springAoc</artifactId>
+
+
+    <!--选择包类型-->
+    <packaging>pom</packaging>
+    <modules>
+        <module>../day08_eesy_01tx</module>
+        <module>../springday04_eesy_01jdbctemplate</module>
+    </modules>
+    <dependencies>
+    <dependency>
+        <groupId>org.springframework</groupId>
+        <artifactId>spring-context</artifactId>
+        <version>5.0.3.RELEASE</version>
+    </dependency>
+
+    <dependency>
+        <groupId>org.aspectj</groupId>
+        <artifactId>aspectjweaver</artifactId>
+        <version>1.8.13</version>
+    </dependency>
+
+    <dependency>
+        <groupId>org.apache.geronimo.bundles</groupId>
+        <artifactId>aspectjweaver</artifactId>
+        <version>1.6.8_2</version>
+    </dependency>
+
+
+</dependencies>
+</project>

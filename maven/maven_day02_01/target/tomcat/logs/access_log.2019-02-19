@@ -1,0 +1,2 @@
+0:0:0:0:0:0:0:1 - - [19/Feb/2019:22:39:31 +0800] "GET /maven_day02_01/items/findDetail.do HTTP/1.1" 404 1019 http-bio-8080-exec-1 51
+0:0:0:0:0:0:0:1 - - [19/Feb/2019:22:39:31 +0800] "GET /favicon.ico HTTP/1.1" 404 - http-bio-8080-exec-3 0

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="maven_java" />
+        <module name="maven_web" />
+        <module name="travel" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="maven_java" target="1.7" />
+      <module name="maven_java1" target="1.5" />
+      <module name="maven_java2" target="1.5" />
+      <module name="maven_java3" target="1.5" />
+      <module name="maven_java4" target="1.5" />
+      <module name="maven_java5" target="1.5" />
+      <module name="maven_java6" target="1.7" />
+      <module name="maven_test1" target="1.5" />
+      <module name="maven_web" target="1.8" />
+      <module name="maven_web1" target="1.7" />
+      <module name="maven_web2" target="1.7" />
+      <module name="maven_web333" target="1.7" />
+      <module name="travel" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

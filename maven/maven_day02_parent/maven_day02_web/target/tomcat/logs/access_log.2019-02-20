@@ -1,0 +1,2 @@
+0:0:0:0:0:0:0:1 - - [20/Feb/2019:16:31:06 +0800] "GET /maven_day02_web/items/findDetail HTTP/1.1" 200 646 http-bio-8080-exec-1 946
+0:0:0:0:0:0:0:1 - - [20/Feb/2019:16:31:06 +0800] "GET /favicon.ico HTTP/1.1" 404 - http-bio-8080-exec-3 0

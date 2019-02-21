@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/aop
+        http://www.springframework.org/schema/aop/spring-aop.xsd">
+<!--配置spring的Ioc，把service对象配置进来-->
+<bean id="accountService" class="com.itcast.service.impl.AccountService"></bean>
+<!--配置AccountUtils-->
+<bean id="AccountUtils" class="com.itcast.Utils.AccountUtils"></bean>
+
+<!--配置AOP-->
+<aop:config >
+    <!--配置切入点-->
+    <aop:aspect id="accountUtils"  ref="AccountUtils"  >
+        <!--匹配通知的类型，并建立通知方法和切入点方法的关联-->
+        <aop:before method="printLog" pointcut="execution(public void com.itcast.service.impl.AccountService.saveAccount())"></aop:before>
+    </aop:aspect>
+</aop:config>
+
+
+
+</beans>

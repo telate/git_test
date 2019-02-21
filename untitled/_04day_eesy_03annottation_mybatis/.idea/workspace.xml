@@ -1,0 +1,536 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7dee440e-9752-40d8-8680-e9069a3f9646" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1236117854">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="3665" />
+          <entry key="properties" value="11" />
+          <entry key="xml" value="597" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="3665" />
+          <entry key="Properties" value="11" />
+          <entry key="XML" value="597" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="6" />
+          <entry key="properties" value="7" />
+          <entry key="xml" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="6" />
+          <entry key="Properties" value="7" />
+          <entry key="XML" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/itcast/dao/IUserDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="291">
+              <caret line="65" column="14" lean-forward="true" selection-start-line="65" selection-start-column="14" selection-end-line="65" selection-end-column="14" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/AnnotationCRUDTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="361">
+              <caret line="123" column="34" lean-forward="true" selection-start-line="123" selection-start-column="34" selection-end-line="123" selection-end-column="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2080#2081#0" expanded="true" />
+                <element signature="e#2117#2118#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="AnnotationType" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/itcast/main/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/itcast/domain/User.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/com/itcast/dao/IUserDaoConfig.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/SqlMapConfig.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/itcast/dao/Select.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TextUser.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/jdbcConfig.properties" />
+        <option value="$PROJECT_DIR$/src/test/java/AnnotationCRUDTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/itcast/dao/IUserDao.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\Java_ruanjian\maven_repository" />
+        <option name="mavenHome" value="D:/Java_ruanjian/apache-maven-3.5.2" />
+        <option name="userSettingsFile" value="D:\Java_ruanjian\apache-maven-3.5.2\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="vmOptions" value="-DarchetypeCatalog=internal -Dfile.encoding=gb2312" />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="80" />
+    <option name="y" value="75" />
+    <option name="width" value="1943" />
+    <option name="height" value="954" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="_04day_eesy_03annottation_mybatis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="_04day_eesy_03annottation_mybatis" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="_04day_eesy_03annottation_mybatis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="_04day_eesy_03annottation_mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="_04day_eesy_03annottation_mybatis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="_04day_eesy_03annottation_mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="_04day_eesy_03annottation_mybatis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="_04day_eesy_03annottation_mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="_04day_eesy_03annottation_mybatis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="_04day_eesy_03annottation_mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="_04day_eesy_03annottation_mybatis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="_04day_eesy_03annottation_mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="itcast" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="_04day_eesy_03annottation_mybatis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="_04day_eesy_03annottation_mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="itcast" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="_04day_eesy_03annottation_mybatis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="_04day_eesy_03annottation_mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="itcast" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="_04day_eesy_03annottation_mybatis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="_04day_eesy_03annottation_mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="_04day_eesy_03annottation_mybatis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="_04day_eesy_03annottation_mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548240854962" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.runner" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.itcast.dao" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\JavaWeb\untitled\_04day_eesy_03annottation_mybatis\src\main\resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\JavaWeb\untitled\_04day_eesy_03annottation_mybatis\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.AnnotationCRUDTest.textFindCount">
+    <configuration name="AnnotationCRUDTest.textDeleteUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="_04day_eesy_03annottation_mybatis" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AnnotationCRUDTest" />
+      <option name="METHOD_NAME" value="textDeleteUser" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AnnotationCRUDTest.textFindById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="_04day_eesy_03annottation_mybatis" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AnnotationCRUDTest" />
+      <option name="METHOD_NAME" value="textFindById" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AnnotationCRUDTest.textFindByName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="_04day_eesy_03annottation_mybatis" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AnnotationCRUDTest" />
+      <option name="METHOD_NAME" value="textFindByName" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AnnotationCRUDTest.textFindCount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="_04day_eesy_03annottation_mybatis" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AnnotationCRUDTest" />
+      <option name="METHOD_NAME" value="textFindCount" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AnnotationCRUDTest.textfindById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="_04day_eesy_03annottation_mybatis" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AnnotationCRUDTest" />
+      <option name="METHOD_NAME" value="textfindById" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.AnnotationCRUDTest.textDeleteUser" />
+      <item itemvalue="JUnit.AnnotationCRUDTest.textfindById" />
+      <item itemvalue="JUnit.AnnotationCRUDTest.textFindById" />
+      <item itemvalue="JUnit.AnnotationCRUDTest.textFindByName" />
+      <item itemvalue="JUnit.AnnotationCRUDTest.textFindCount" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.AnnotationCRUDTest.textFindCount" />
+        <item itemvalue="JUnit.AnnotationCRUDTest.textFindByName" />
+        <item itemvalue="JUnit.AnnotationCRUDTest.textFindById" />
+        <item itemvalue="JUnit.AnnotationCRUDTest.textfindById" />
+        <item itemvalue="JUnit.AnnotationCRUDTest.textDeleteUser" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7dee440e-9752-40d8-8680-e9069a3f9646" name="Default Changelist" comment="" />
+      <created>1548214823340</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1548214823340</updated>
+      <workItem from="1548214824811" duration="15535000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="AnnotationCRUDTest_textFindById - 2019.01.23 at 18h 12m 17s.xml">
+      <configuration name="AnnotationCRUDTest.textFindById" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AnnotationCRUDTest_textFindByName - 2019.01.23 at 18h 17m 27s.xml">
+      <configuration name="AnnotationCRUDTest.textFindByName" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AnnotationCRUDTest_textFindByName - 2019.01.23 at 18h 19m 40s.xml">
+      <configuration name="AnnotationCRUDTest.textFindByName" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AnnotationCRUDTest_textFindByName - 2019.01.23 at 18h 27m 19s.xml">
+      <configuration name="AnnotationCRUDTest.textFindByName" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AnnotationCRUDTest_textFindByName - 2019.01.23 at 18h 33m 32s.xml">
+      <configuration name="AnnotationCRUDTest.textFindByName" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AnnotationCRUDTest_textFindByName - 2019.01.23 at 18h 36m 38s.xml">
+      <configuration name="AnnotationCRUDTest.textFindByName" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AnnotationCRUDTest_textFindByName - 2019.01.23 at 18h 37m 28s.xml">
+      <configuration name="AnnotationCRUDTest.textFindByName" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AnnotationCRUDTest_textFindByName - 2019.01.23 at 18h 42m 19s.xml">
+      <configuration name="AnnotationCRUDTest.textFindByName" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AnnotationCRUDTest_textFindCount - 2019.01.23 at 18h 50m 13s.xml">
+      <configuration name="AnnotationCRUDTest.textFindCount" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AnnotationCRUDTest_textFindCount - 2019.01.23 at 18h 54m 09s.xml">
+      <configuration name="AnnotationCRUDTest.textFindCount" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="15535000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="64" y="60" width="1554" height="763" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.8843106" visible="true" weight="0.20588236" />
+      <window_info id="Structure" order="1" sideWeight="0.11568938" side_tool="true" visible="true" weight="0.20588236" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" sideWeight="0.110754415" side_tool="true" weight="0.13636364" />
+      <window_info id="Web" order="7" sideWeight="0.10797342" side_tool="true" weight="0.1991342" />
+      <window_info anchor="bottom" id="Spring" order="0" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.24695122" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.87445885" weight="0.02377179" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.53996986" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.12554112" side_tool="true" weight="0.41238672" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.5324881" />
+      <window_info anchor="bottom" id="Application Servers" order="13" weight="0.2551724" />
+      <window_info anchor="bottom" id="Java Enterprise" order="14" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="1" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="2" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="right" id="Ant Build" order="4" weight="0.24896266" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Database" order="7" weight="0.32908848" />
+      <window_info anchor="right" id="Maven Projects" order="8" weight="0.33261183" />
+      <window_info anchor="right" id="Coverage" order="9" side_tool="true" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/itcast/dao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="704">
+          <caret line="32" column="22" lean-forward="true" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/itcast/dao/Select.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="52" lean-forward="true" selection-start-line="13" selection-start-column="52" selection-end-line="13" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/jdbcConfig.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="18" lean-forward="true" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TextUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/SqlMapConfig.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="15" column="32" lean-forward="true" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/itcast/domain/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1166">
+          <caret line="53" column="18" selection-start-line="53" selection-start-column="18" selection-end-line="53" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#285#286#0" expanded="true" />
+            <element signature="e#310#311#0" expanded="true" />
+            <element signature="e#347#348#0" expanded="true" />
+            <element signature="e#375#376#0" expanded="true" />
+            <element signature="e#410#411#0" expanded="true" />
+            <element signature="e#441#442#0" expanded="true" />
+            <element signature="e#489#490#0" expanded="true" />
+            <element signature="e#529#530#0" expanded="true" />
+            <element signature="e#562#563#0" expanded="true" />
+            <element signature="e#593#594#0" expanded="true" />
+            <element signature="e#639#640#0" expanded="true" />
+            <element signature="e#679#680#0" expanded="true" />
+            <element signature="e#709#710#0" expanded="true" />
+            <element signature="e#735#736#0" expanded="true" />
+            <element signature="e#773#774#0" expanded="true" />
+            <element signature="e#803#804#0" expanded="true" />
+            <element signature="e#837#838#0" expanded="true" />
+            <element signature="e#867#868#0" expanded="true" />
+            <element signature="e#913#914#0" expanded="true" />
+            <element signature="e#951#952#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/itcast/dao/IUserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="65" column="14" lean-forward="true" selection-start-line="65" selection-start-column="14" selection-end-line="65" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/AnnotationCRUDTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="123" column="34" lean-forward="true" selection-start-line="123" selection-start-column="34" selection-end-line="123" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2080#2081#0" expanded="true" />
+            <element signature="e#2117#2118#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
